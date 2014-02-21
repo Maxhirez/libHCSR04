@@ -1,0 +1,15 @@
+libHCSR04.c
+libHCSR04.h
+ping.c
+cm.c
+inches.c
+-I libHCSR04
+-L libHCSR04
+>compiler=C
+>memtype=cmm main ram compact
+>optimize=-Os
+>-m32bit-doubles
+>-fno-exceptions
+>defs::-std=c99
+>-create_library
+>BOARD::GENERIC
